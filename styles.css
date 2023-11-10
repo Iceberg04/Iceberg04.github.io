@@ -1,0 +1,122 @@
+/* Общие стили для шрифтов и цветов */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Стили для заголовка "Карта колледжей" */
+h1 {
+    font-size: 36px;
+    margin: 0;
+    margin-top: 20px;
+    color: hsl(0, 0%, 97%);
+}
+
+/* Стили для общего контейнера main */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Стили для блока с информацией о реестре и фильтрации */
+.title {
+    background-color: #ffd300;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 0;
+    color: #333;
+}
+
+/* Стили для фильтра по профессии */
+#profession-filter, #name-filter {
+   margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+}
+
+/* Стили для таблицы */
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    background: #fff;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.table th {
+    font-weight: bold;
+    background-color: #333;
+    border: none;
+    text-align: left;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #ffd300;
+    color: #fff;
+}
+
+.table td {
+    border: none;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.table tbody tr:hover {
+    background: #f0f0f0;
+}
+
+/* Стили для подвала */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Стили для интерактивной карты (это может потребовать дополнительной настройки) */
+#yandex-map {
+    width: 90%;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

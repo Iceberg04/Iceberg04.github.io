@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=17827a41-4ddf-4798-9488-5e3da1034832&lang=ru_RU"
+    type="text/javascript"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Карта колледжей</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Интерактивная карта</h1>
+    </header>
+    <main>
+        <div id="yandex-map"></div>
+        <div class="title">Перчень
+            <h2 id="record-count">Показано записей: 0</h2>
+        </div>
+        <input type="text" id="profession-filter" placeholder="Фильтровать по професcии">
+        <input type="text" id="name-filter" placeholder="Фильтровать по наименованию">
+        <div class="table-container">
+            <table class="table" id="college-table">
+                <thead>
+                    <tr>
+                        <th style="text-align:left">№</th>
+                        <th>Район</th>
+                        <th>Наименование образовательной организации</th>
+                        <th>Наименование мастерской (компетенции)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; ГАУ ДПО ЦОПП РБ</p>
+    </footer>
+    <script src="script1.js"></script>
+</body>
+</html>
